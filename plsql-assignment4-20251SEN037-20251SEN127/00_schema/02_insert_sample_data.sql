@@ -1,0 +1,19 @@
+INSERT INTO departments (department_id, department_name, location) VALUES (10, 'Human Resources', 'Kigali');
+INSERT INTO departments (department_id, department_name, location) VALUES (20, 'Information Technology', 'Kigali');
+INSERT INTO departments (department_id, department_name, location) VALUES (30, 'Finance', 'Huye');
+INSERT INTO departments (department_id, department_name, location) VALUES (40, 'Marketing', 'Musanze');
+
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100001, 'Alice', 'Uwimana', 'alice.uwimana@example.com', '0780000001', DATE '2024-02-15', 'HR Manager', 850000, 10, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100002, 'Eric', 'Niyonzima', 'eric.niyonzima@example.com', '0780000002', DATE '2024-03-10', 'HR Officer', 550000, 10, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100003, 'Grace', 'Mukamana', 'grace.mukamana@example.com', '0780000003', DATE '2024-04-05', 'Recruiter', 480000, 10, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100004, 'David', 'Habimana', 'david.habimana@example.com', '0780000004', DATE '2023-01-12', 'IT Manager', 1200000, 20, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100005, 'Kevin', 'Iradukunda', 'kevin.iradukunda@example.com', '0780000005', DATE '2023-05-20', 'Software Developer', 950000, 20, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100006, 'Diane', 'Ingabire', 'diane.ingabire@example.com', '0780000006', DATE '2024-06-18', 'Database Administrator', 900000, 20, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100007, 'Patrick', 'Nkurunziza', 'patrick.nkurunziza@example.com', '0780000007', DATE '2023-02-14', 'Finance Manager', 1100000, 30, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100008, 'Esther', 'Uwamahoro', 'esther.uwamahoro@example.com', '0780000008', DATE '2024-07-01', 'Accountant', 650000, 30, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100009, 'Samuel', 'Bizimana', 'samuel.bizimana@example.com', '0780000009', DATE '2024-08-09', 'Financial Analyst', 700000, 30, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100010, 'Claire', 'Mutoni', 'claire.mutoni@example.com', '0780000010', DATE '2023-09-11', 'Marketing Manager', 900000, 40, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100011, 'Brian', 'Mugisha', 'brian.mugisha@example.com', '0780000011', DATE '2025-01-15', 'Marketing Officer', 600000, 40, 'ACTIVE');
+INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_title, salary, department_id, employment_status) VALUES (100012, 'Sarah', 'Nyirahabimana', 'sarah.nyirahabimana@example.com', '0780000012', DATE '2026-01-10', 'Content Creator', 500000, 40, 'INACTIVE');
+
+COMMIT;
