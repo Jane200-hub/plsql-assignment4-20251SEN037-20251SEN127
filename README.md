@@ -210,6 +210,6 @@ Run `BEGIN pr_compare_bulk_vs_loop(20000); END;` and see how big the gap is on y
 
 ## AI use and teamwork
 
-**AI help, in plain words.** ChatGPT guided us planning the project efficiently and write the first version of the SQL, the tests and the notes. Claude helped us check our code against the assignment brief, and find where corection is needed. We ran the scripts in Oracle FreeSQL, took the screenshots come from those runs, and fixed the necessary bugs. Both of us can explain every file, because we are the ones who have to.
+**AI help, in plain words. ** ChatGPT guided us planning the project efficiently and write the first version of the SQL, the tests and the notes. Claude helped us check our code against the assignment brief and find where correction is needed. We ran the scripts in Oracle Free SQL, took the screenshots that came from those runs, and fixed the necessary bugs. Both of us can explain every file, because we are the ones who have to.
 
 **Teamwork.** Both of us commit to this repository, review each other's code and answer questions on any file. Daniel is the integration lead.
